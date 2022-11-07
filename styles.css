@@ -1,0 +1,248 @@
+header {
+  background-color: #373f48;
+}
+
+.navbar.navbar-custom {
+  min-height: 80px;
+}
+
+.logo {
+  margin-top: -10px;
+}
+
+.navbar-collapse-custom {
+  flex-grow: unset;
+}
+
+.button {
+  font-family: "Source Sans Pro";
+  font-size: 14px;
+  line-height: 18px;
+  width: 200px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  height: 44px;
+  border-radius: 4px;
+  border: none;
+  font-style: normal;
+  font-weight: 600;
+  color: #575c61;
+  align-items: center;
+  justify-content: center;
+  background: #eac55e;
+  text-transform: uppercase;
+}
+
+.header-button {
+  width: 174px;
+  height: 44px;
+  border: 1px solid #e9cd7b;
+  border-radius: 4px;
+  font-style: normal;
+  font-weight: 600;
+  color: #e9cd7b;
+  min-width: 174px;
+  max-width: 174px;
+  flex-grow: unset;
+}
+
+.nav-item-custom {
+  padding-right: 24px;
+}
+
+.nav-ref-custom {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 300;
+  max-width: 174px;
+}
+
+.nav-item.nav-item-custom > a:hover {
+  color: #e9cd7b;
+  border-bottom: 1px solid #e9cd7b;
+  transition: color 0.2s linear;
+}
+
+.breadcrumb-custom {
+  /* margin-left: 102px; */
+  margin-bottom: 0;
+  margin-top: 41px;
+  margin-left: 165px;
+}
+
+h1 {
+  /* padding-left: 102px; */
+  padding-top: 77px;
+  padding-left: 165px;
+  margin-bottom: 0px;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 48px;
+  color: #373f48;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-weight: 600;
+}
+
+.container-text-custom {
+  margin-top: 69px;
+  /* padding-left: 67px; */
+  padding-left: 142px;
+}
+
+.text-block {
+  /* max-width: 370px; */
+  width: 370px;
+  padding-left: 45px;
+  padding-top: 30px;
+  padding-bottom: 27px;
+  padding-right: 27px;
+  border: 1px solid;
+  border-color: transparent;
+}
+
+h2 {
+  margin-bottom: 12px;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  color: #373f48;
+}
+
+.text-block > a {
+  color: #eac55e;
+  text-decoration: none;
+  /* margin-top: 22px; wtf77 */
+  text-transform: uppercase;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 69px;
+  opacity: 0;
+}
+
+.text-block:hover {
+  border: 1px solid #eac55e;
+  border-radius: 4px;
+  transition: 0.2s linear;
+}
+
+.text-block:hover > a {
+  opacity: 1;
+  transition: 0.2s linear;
+}
+
+.text {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  color: #373f48;
+  margin-bottom: 22px;
+}
+
+.ref-custom {
+  text-decoration: none;
+  color: #9b9fa3;
+}
+
+.ref-custom:hover {
+  color: #6c757d;
+}
+
+.line {
+  height: 1px;
+  background-image: linear-gradient(
+    270deg,
+    rgba(55, 63, 72, 0.1) 0%,
+    rgba(55, 63, 72, 0.3) 50.5%,
+    rgba(55, 63, 72, 0.1) 99.96%
+  );
+  margin-top: 40px;
+}
+
+h3 {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  color: #373f48;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-weight: 700;
+}
+
+.bottom-refs {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  gap: 5px;
+}
+
+.bottom-refs > a {
+  text-decoration: none;
+  color: #373f48;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 300;
+}
+
+.social-media > a {
+  text-decoration: none;
+}
+
+.social-media {
+  display: flex;
+  justify-content: flex-start;
+  gap: 23px;
+  margin-top: 20px;
+}
+
+.phone-number {
+  margin-top: 8px;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 300;
+  font-size: 21px;
+  color: #373f48;
+  width: 140px;
+}
+
+.phone {
+  text-shadow: none;
+}
+
+.row-margin {
+  margin-left: 165px;
+}
+
+.footer-block {
+  padding-top: 45px;
+  padding-right: 135px;
+}
+
+.button-pg-custom {
+  padding-left: 20px;
+  padding-top: 55px;
+}
+
+.copyright {
+  display: flex;
+  align-items: center;
+  background-color: #e6e6e6;
+  height: 66px;
+  margin-top: 139px;
+}
+
+.copy-sign {
+  margin-left: 60px;
+  font-style: normal;
+  font-weight: 400;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 12px;
+  color: #373f48;
+  margin-left: 60px;
+}
